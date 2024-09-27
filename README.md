@@ -2,35 +2,27 @@
 
 A Spring Boot-based Task Management System with Thymeleaf integration. This project allows users to create, edit, update, and delete tasks, storing data in a MySQL database.
 
-Table of Contents
-Getting Started
-Features
-Technologies Used
-Database Setup
-Project Structure
-How to Run
-License
-Getting Started
+**Getting Started**
 Prerequisites
 Java 8 or later
 Maven or Gradle
 MySQL
 An IDE (e.g., IntelliJ IDEA, Eclipse)
 Git
-Features
+**Features**
 View a list of tasks
 Create new tasks with a title, description, and status
 Edit existing tasks
 Delete tasks
 Integration with a MySQL database for data persistence
 Dynamic HTML rendering using Thymeleaf
-Technologies Used
-Spring Boot: For building the backend
-Thymeleaf: For HTML templating
-Spring Data JPA: For database interactions
-MySQL: As the database
-Lombok (optional): To reduce boilerplate code
-Database Setup
+**Technologies Used**
+  **Spring Boot:** For building the backend
+  **Thymeleaf:** For HTML templating
+  **Spring Data JPA:** For database interactions
+  **MySQL:** As the database
+  **Lombok (optional):** To reduce boilerplate code
+**Database Setup**
 Create a MySQL database named task_management_db:
 sql
 Copy code
@@ -44,7 +36,7 @@ spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 
-How to Run
+**How to Run**
 Clone the repository:
 
 bash
@@ -69,5 +61,5 @@ Copy code
 gradle bootRun
 Access the app at http://localhost:8080/tasks.
 
-License
+**License**
 This project is licensed under the MIT License.
