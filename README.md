@@ -1,4 +1,5 @@
-Task Management System
+**Task Management System**
+
 A Spring Boot-based Task Management System with Thymeleaf integration. This project allows users to create, edit, update, and delete tasks, storing data in a MySQL database.
 
 Table of Contents
